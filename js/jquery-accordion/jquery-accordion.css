@@ -1,0 +1,41 @@
+/* CSS Document */
+	/* First Level UL List */
+#accordion {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#accordion li.item {
+	border-bottom:1px solid #CCC;
+	padding:5px 0;
+}
+#accordion li a.item {
+	border:none;
+	display: block;
+	text-transform:uppercase;
+	padding: 15px 15px 10px;
+	font-size:12px;
+	text-decoration:none;
+	color:#666;
+	font-weight:bold;
+	border-left:4px solid #FFF;
+}
+/* Second Level UL List*/
+#accordion ul{
+	display:none;
+	list-style:none;
+	margin:0 5px 0 -35px;
+}
+#accordion ul li a {
+	display:block;
+	border-left:4px solid #FFF;
+	padding:5px 0 5px 15px;
+	text-decoration:none;
+	color:#69C;
+}
+/* hover */
+#accordion li a.item:hover, #accordion ul li a:hover {
+	background:#F3F3F3;
+	border-left:4px solid #CADEE3;
+	color:#03F;
+}
